@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Next.js, TypeScript, Tailwind CSS and lightweight motion. The user approved this greenfield stack and requested reusable components, strong performance, accessibility, SEO and maintainability. The project remains local until the user separately authorizes deployment.
+Next.js, TypeScript, Tailwind CSS and lightweight motion. The user approved this greenfield stack and requested reusable components, strong performance, accessibility, SEO and maintainability. The project is published at `https://jumpperformace.com.br`.
 
 ## Users
 
@@ -45,11 +45,11 @@ Visitors arrive through referrals, campaigns, social profiles or direct links, s
 - Binding identity: “Data Signal” — technological, retro-futurist, editorial, dark, precise and experimental without becoming cyberpunk, gamer, crypto or generic AI.
 - Binding palette: Carbon Black `#080010`, Graphite `#1A1F26`, Off White `#F5F7FA`, Electric Lime `#C8FF3D`, Electric Blue `#2D58FF`.
 - Visual vocabulary: technical grids, fine lines, coordinates, signal paths, data points, restrained interface labels, negative space and measured typography.
-- The official logo is not present. Use the approved temporary wordmark “JUMP / PERFORMANCE” and do not recreate an unofficial symbol.
+- The official supplied logo is `public/brand/jump-performance-logo.jpeg`. Preserve its geometry, lettering and color relationships; use non-destructive presentation crops rather than redrawing it.
 
 ## Evidence on Hand
 
-The supplied Portuguese brief contains approved positioning copy, package descriptions, method steps and CTA language. There are no official logo files, real client names, case imagery, case results, verified contact details or social URLs in the repository. Those absences must remain clearly editable placeholders and must never be fabricated.
+The supplied Portuguese brief contains approved positioning copy, package descriptions, method steps and CTA language. The official logo is available as a WhatsApp-compressed JPEG; no vector master has been supplied. There are no real client names, case imagery, case results, verified contact details or social URLs in the repository. Those absences must remain clearly editable placeholders and must never be fabricated.
 
 ## Product Principles
 

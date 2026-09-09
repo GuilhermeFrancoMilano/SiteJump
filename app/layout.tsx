@@ -44,8 +44,9 @@ export const metadata: Metadata = {
       "Estratégia, criatividade e dados conectados para transformar atenção em crescimento.",
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: [{ url: "/brand/jump-performance-logo.jpeg", type: "image/jpeg" }],
+    shortcut: "/brand/jump-performance-logo.jpeg",
+    apple: "/brand/jump-performance-logo.jpeg",
   },
 };
 

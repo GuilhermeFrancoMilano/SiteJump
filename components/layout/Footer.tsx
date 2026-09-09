@@ -13,7 +13,7 @@ export function Footer() {
       <div className="footer__inner shell">
         <div className="footer__brand">
           <a href="#inicio" aria-label="Voltar ao início">
-            <Wordmark />
+            <Wordmark variant="emblem" />
           </a>
           <p>Estratégia que move.<br />Performance que escala.</p>
         </div>

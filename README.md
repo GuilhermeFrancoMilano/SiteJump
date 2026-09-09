@@ -29,7 +29,7 @@ O projeto não possui suíte de testes automatizados neste momento.
 - `config/site.ts`: WhatsApp, e-mail e redes sociais.
 - `data/packages.ts`: nomes, descrições, entregáveis e CTAs dos pacotes.
 - `data/projects.ts`: projetos, cases, galeria e resultados verificados.
-- `public/brand/`: diretório recomendado para inserir a identidade oficial quando os arquivos forem fornecidos.
+- `public/brand/`: identidade oficial fornecida e orientações para futuros masters vetoriais.
 
 Enquanto esses dados não forem confirmados, o site mantém labels explícitos de placeholder e não publica clientes, números ou resultados fictícios.
 
@@ -44,4 +44,6 @@ Enquanto esses dados não forem confirmados, o site mantém labels explícitos d
 
 ## Publicação
 
-Nenhum deploy ou domínio foi configurado. A publicação deve ser feita somente após inserir e validar os assets, contatos e cases reais.
+O site está publicado em `https://jumpperformace.com.br`. Contatos e cases reais
+continuam centralizados nos arquivos editáveis e devem ser validados antes de
+substituir os placeholders.

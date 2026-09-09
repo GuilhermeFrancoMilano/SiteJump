@@ -1,9 +1,10 @@
 # Assets oficiais da Jump Performance
 
-Substitua o wordmark temporário pelos arquivos oficiais quando estiverem disponíveis. Nomes recomendados:
+## Disponível
 
-- `logo.svg`
-- `logo-white.svg`
-- `icon.svg`
+- `jump-performance-logo.jpeg`: composição oficial fornecida pela equipe, em
+  1254 × 1254 px, usada no cabeçalho, menu, rodapé e favicon.
 
-Não há logo oficial neste repositório no momento; o site usa apenas o texto `JUMP / PERFORMANCE` e um favicon geométrico provisório.
+O cabeçalho usa um recorte visual não destrutivo do wordmark; o arquivo original
+permanece intacto. Quando o master vetorial estiver disponível, prefira SVG ou
+PNG transparente para eliminar a compressão do WhatsApp em tamanhos pequenos.

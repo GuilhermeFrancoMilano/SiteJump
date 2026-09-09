@@ -118,22 +118,38 @@ button {
 }
 
 .wordmark {
-  display: inline-flex;
-  flex-direction: column;
-  color: var(--off-white);
-  font-family: var(--font-jump-display), sans-serif;
-  font-size: 1.42rem;
-  font-weight: 900;
-  line-height: 0.72;
-  letter-spacing: -0.02em;
+  position: relative;
+  display: block;
+  width: 9.5rem;
+  aspect-ratio: 10 / 3;
+  overflow: hidden;
+  flex: none;
+  isolation: isolate;
 }
 
-.wordmark span:last-child {
-  margin-top: 0.52rem;
-  font-family: var(--font-jump-body), sans-serif;
-  font-size: 0.55rem;
-  font-weight: 700;
-  letter-spacing: 0.28em;
+.wordmark__image {
+  position: absolute;
+  top: -251.85%;
+  left: -20%;
+  width: 139.34%;
+  max-width: none;
+  height: auto;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  user-select: none;
+}
+
+.wordmark--emblem {
+  width: clamp(11rem, 15vw, 14rem);
+  aspect-ratio: 1;
+  overflow: visible;
+}
+
+.wordmark--emblem .wordmark__image {
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .site-header {
@@ -2167,7 +2183,7 @@ a:hover .arrow-icon--up-right {
 
 .footer__brand p {
   max-width: 22ch;
-  margin: 2.5rem 0 0;
+  margin: 1.5rem 0 0;
   font-family: var(--font-display), sans-serif;
   font-size: 1.9rem;
   font-weight: 700;

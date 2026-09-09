@@ -198,7 +198,7 @@ Controles, cartões, faixas, menus e dossiers usam cantos quadrados. Bordas de 1
 
 ### Navigation
 
-- **Desktop:** wordmark à esquerda, links técnicos centralizados e ação contornada à direita; após rolagem, o fundo recebe transparência controlada e blur.
+- **Desktop:** wordmark oficial à esquerda, links técnicos centralizados e ação contornada à direita; após rolagem, o fundo recebe transparência controlada e blur.
 - **Link state:** um trilho lima cresce horizontalmente em hover ou foco.
 - **Mobile:** overlay carbono fullscreen, itens numerados em Barlow Condensed, separadores hairline e botão de fechar quadrado; a chamada principal fecha a pilha.
 
@@ -237,7 +237,7 @@ Controles, cartões, faixas, menus e dossiers usam cantos quadrados. Bordas de 1
 - **Do** mantenha lima e azul em papéis semânticos distintos e verificáveis.
 - **Do** combine afirmações condensadas com texto Manrope de largura controlada e telemetria monoespaçada curta.
 - **Do** preserve estados equivalentes de hover, foco visível e movimento reduzido em todos os componentes interativos.
-- **Do** use o wordmark temporário “JUMP / PERFORMANCE” até existir um ativo oficial aprovado.
+- **Do** use o ativo oficial fornecido, preservando geometria, lettering e relações de cor; recortes de apresentação devem ser não destrutivos.
 
 ### Don't:
 
@@ -245,4 +245,4 @@ Controles, cartões, faixas, menus e dossiers usam cantos quadrados. Bordas de 1
 - **Don't** introduza cantos arredondados, sombras, glassmorphism, glows ou profundidade 3D em painéis de marca.
 - **Don't** trate lima e azul como ruído neon, estética cyberpunk, gamer, cripto ou “IA genérica”.
 - **Don't** espalhe microcopy técnica até competir com a mensagem principal; índices e coordenadas devem orientar, não decorar.
-- **Don't** recrie um símbolo de marca não fornecido nem use resultados, logos de clientes ou métricas sem validação.
+- **Don't** redesenhe, vetorize automaticamente ou aplique os glows 3D do arquivo de marca aos demais componentes; não use resultados, logos de clientes ou métricas sem validação.
