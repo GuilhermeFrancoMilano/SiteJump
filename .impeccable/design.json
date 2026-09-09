@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-09T00:00:00-03:00",
+  "title": "Design System: Jump Performance",
+  "extensions": {
+    "colorMeta": {
+      "carbon": {
+        "role": "neutral",
+        "displayName": "Carbono Profundo",
+        "canonical": "#080010",
+        "tonalRamp": ["oklch(15% 0.035 300)", "oklch(25% 0.035 300)", "oklch(35% 0.035 300)", "oklch(47% 0.035 300)", "oklch(59% 0.035 300)", "oklch(71% 0.035 300)", "oklch(83% 0.035 300)", "oklch(95% 0.035 300)"]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Grafite Instrumental",
+        "canonical": "#1a1f26",
+        "tonalRamp": ["oklch(15% 0.018 250)", "oklch(25% 0.018 250)", "oklch(35% 0.018 250)", "oklch(47% 0.018 250)", "oklch(59% 0.018 250)", "oklch(71% 0.018 250)", "oklch(83% 0.018 250)", "oklch(95% 0.018 250)"]
+      },
+      "off-white": {
+        "role": "neutral",
+        "displayName": "Off-white Óptico",
+        "canonical": "#f5f7fa",
+        "tonalRamp": ["oklch(15% 0.006 250)", "oklch(25% 0.006 250)", "oklch(35% 0.006 250)", "oklch(47% 0.006 250)", "oklch(59% 0.006 250)", "oklch(71% 0.006 250)", "oklch(83% 0.006 250)", "oklch(95% 0.006 250)"]
+      },
+      "electric-lime": {
+        "role": "primary",
+        "displayName": "Lima de Calibração",
+        "canonical": "#c8ff3d",
+        "tonalRamp": ["oklch(15% 0.21 122)", "oklch(25% 0.21 122)", "oklch(35% 0.21 122)", "oklch(47% 0.21 122)", "oklch(59% 0.21 122)", "oklch(71% 0.21 122)", "oklch(83% 0.21 122)", "oklch(95% 0.21 122)"]
+      },
+      "electric-blue": {
+        "role": "secondary",
+        "displayName": "Azul de Sinal",
+        "canonical": "#2d58ff",
+        "tonalRamp": ["oklch(15% 0.25 267)", "oklch(25% 0.25 267)", "oklch(35% 0.25 267)", "oklch(47% 0.25 267)", "oklch(59% 0.25 267)", "oklch(71% 0.25 267)", "oklch(83% 0.25 267)", "oklch(95% 0.25 267)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cinza de Leitura",
+        "canonical": "#aeb4be",
+        "tonalRamp": ["oklch(15% 0.015 250)", "oklch(25% 0.015 250)", "oklch(35% 0.015 250)", "oklch(47% 0.015 250)", "oklch(59% 0.015 250)", "oklch(71% 0.015 250)", "oklch(83% 0.015 250)", "oklch(95% 0.015 250)"]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Trilho Sutil",
+        "canonical": "rgba(245, 247, 250, 0.18)",
+        "tonalRamp": ["oklch(15% 0.006 250 / 0.18)", "oklch(25% 0.006 250 / 0.18)", "oklch(35% 0.006 250 / 0.18)", "oklch(47% 0.006 250 / 0.18)", "oklch(59% 0.006 250 / 0.18)", "oklch(71% 0.006 250 / 0.18)", "oklch(83% 0.006 250 / 0.18)", "oklch(95% 0.006 250 / 0.18)"]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Trilho Ativo",
+        "canonical": "rgba(245, 247, 250, 0.34)",
+        "tonalRamp": ["oklch(15% 0.006 250 / 0.34)", "oklch(25% 0.006 250 / 0.34)", "oklch(35% 0.006 250 / 0.34)", "oklch(47% 0.006 250 / 0.34)", "oklch(59% 0.006 250 / 0.34)", "oklch(71% 0.006 250 / 0.34)", "oklch(83% 0.006 250 / 0.34)", "oklch(95% 0.006 250 / 0.34)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Superfície de Espécime",
+        "canonical": "#111019",
+        "tonalRamp": ["oklch(15% 0.025 300)", "oklch(25% 0.025 300)", "oklch(35% 0.025 300)", "oklch(47% 0.025 300)", "oklch(59% 0.025 300)", "oklch(71% 0.025 300)", "oklch(83% 0.025 300)", "oklch(95% 0.025 300)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display condensado", "purpose": "Afirmações dominantes e títulos de seção." },
+      "headline": { "displayName": "Headline condensado", "purpose": "Títulos internos de dossiers, etapas e módulos." },
+      "title": { "displayName": "Título compacto", "purpose": "Nomes de canais e hierarquia de suporte." },
+      "body": { "displayName": "Corpo editorial", "purpose": "Explicações e leitura contínua de largura controlada." },
+      "label": { "displayName": "Telemetria", "purpose": "Índices, coordenadas, status e microcopy técnica." },
+      "label-action": { "displayName": "Ação", "purpose": "Verbos curtos de navegação e conversão." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Entrada, deslocamento e expansão com desaceleração precisa." },
+      { "name": "state-fast", "value": "250ms ease", "purpose": "Inversões de cor e respostas de controles." },
+      { "name": "state-medium", "value": "300ms ease", "purpose": "Cabeçalho, links e transições de superfícies." },
+      { "name": "reveal", "value": "760ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Revelação de conteúdo ao entrar no viewport." },
+      { "name": "signal-draw", "value": "1800ms 250ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Desenho inicial de caminhos de sinal." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Equivalência estática quando prefers-reduced-motion está ativo." }
+    ],
+    "breakpoints": [
+      { "name": "wide-to-compact", "value": "1120px" },
+      { "name": "tablet", "value": "820px" },
+      { "name": "mobile", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "Ação prioritária em lima que muda para azul quando acionável.",
+      "html": "<button class=\"ds-action-primary\" type=\"button\"><span>VER PROJETOS</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M8 5h11v11\"/></svg></button>",
+      "css": ".ds-action-primary { display:flex; min-height:3.5rem; width:100%; align-items:center; justify-content:space-between; gap:1rem; padding:.9rem 1.1rem; border:1px solid var(--electric-lime, #c8ff3d); border-radius:0; background:var(--electric-lime, #c8ff3d); color:var(--carbon, #080010); font:800 .75rem/1.2 Manrope, sans-serif; letter-spacing:.13em; text-transform:uppercase; cursor:pointer; transition:background-color 250ms ease, border-color 250ms ease, color 250ms ease; } .ds-action-primary svg { width:1rem; height:1rem; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:square; stroke-linejoin:miter; transition:transform 280ms cubic-bezier(.16,1,.3,1); } .ds-action-primary:hover, .ds-action-primary:focus-visible { border-color:var(--electric-blue, #2d58ff); background:var(--electric-blue, #2d58ff); color:var(--off-white, #f5f7fa); } .ds-action-primary:hover svg, .ds-action-primary:focus-visible svg { transform:translate(.18rem,-.18rem); } .ds-action-primary:focus-visible { outline:2px solid var(--electric-lime, #c8ff3d); outline-offset:5px; } .ds-action-primary:active { transform:translateY(1px); }"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "refersTo": "action-outline",
+      "description": "Navegação compacta com trilho de calibração que cresce sob o rótulo.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#pacotes\">PACOTES</a><a href=\"#projetos\">PROJETOS</a><a href=\"#metodo\">MÉTODO</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:clamp(1.5rem,3vw,3.5rem); color:var(--off-white, #f5f7fa); } .ds-nav a { position:relative; display:flex; min-height:2.75rem; align-items:center; color:inherit; font:700 .72rem/1.2 Manrope, sans-serif; letter-spacing:.16em; text-decoration:none; text-transform:uppercase; } .ds-nav a::after { position:absolute; right:0; bottom:-.5rem; left:0; height:1px; background:var(--electric-lime, #c8ff3d); content:\"\"; transform:scaleX(0); transform-origin:right; transition:transform 320ms cubic-bezier(.16,1,.3,1); } .ds-nav a:hover::after, .ds-nav a:focus-visible::after { transform:scaleX(1); transform-origin:left; } .ds-nav a:focus-visible { outline:2px solid var(--electric-lime, #c8ff3d); outline-offset:5px; }"
+    },
+    {
+      "name": "Featured Package Band",
+      "kind": "card",
+      "refersTo": "package-featured",
+      "description": "Faixa editorial ativa, dividida por trilhos em identidade, escopo e ação.",
+      "html": "<article class=\"ds-package\"><section class=\"ds-package__identity\"><span class=\"ds-package__number\">02</span><div><span class=\"ds-package__badge\">MAIS ESCOLHIDO</span><h3>JUMP SCALE</h3><p>Para marcas prontas para acelerar.</p></div></section><ul><li>Estratégia digital</li><li>Gestão de mídia paga</li><li>Otimizações recorrentes</li></ul><a href=\"#contato\">QUERO ESCALAR <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M8 5h11v11\"/></svg></a></article>",
+      "css": ".ds-package { position:relative; display:grid; min-height:18rem; grid-template-columns:5fr 4fr 2.3fr; border-top:1px solid var(--border-strong, rgba(245,247,250,.34)); border-bottom:1px solid var(--border-strong, rgba(245,247,250,.34)); border-radius:0; background:var(--electric-blue, #2d58ff); color:var(--off-white, #f5f7fa); } .ds-package::before { position:absolute; top:-1px; left:0; width:100%; height:2px; background:var(--electric-lime, #c8ff3d); content:\"\"; transform:scaleX(0); transform-origin:left; transition:transform 650ms cubic-bezier(.16,1,.3,1); } .ds-package:hover::before, .ds-package:focus-within::before { transform:scaleX(1); } .ds-package__identity { display:grid; grid-template-columns:3rem 1fr; gap:1rem; padding:1.5rem; border-right:1px solid var(--border-strong, rgba(245,247,250,.34)); } .ds-package__number, .ds-package__badge { font:500 .65rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing:.12em; } .ds-package__badge { display:inline-block; padding:.45rem .65rem; border:1px solid currentColor; } .ds-package h3 { margin:3rem 0 .75rem; font:800 3.6rem/.82 \"Barlow Condensed\", sans-serif; letter-spacing:-.035em; text-transform:uppercase; } .ds-package p { max-width:32ch; margin:0; color:rgba(245,247,250,.82); font:400 .9rem/1.6 Manrope, sans-serif; } .ds-package ul { display:grid; align-content:center; margin:0; padding:1.5rem; list-style:none; } .ds-package li { padding:.68rem 0 .68rem 1.35rem; border-bottom:1px solid var(--border, rgba(245,247,250,.18)); font:400 .82rem/1.35 Manrope, sans-serif; } .ds-package a { display:flex; align-items:flex-end; justify-content:space-between; gap:1rem; padding:1.5rem; border-left:1px solid var(--border-strong, rgba(245,247,250,.34)); color:inherit; font:800 .72rem/1.2 Manrope, sans-serif; letter-spacing:.13em; text-decoration:none; text-transform:uppercase; transition:background-color 250ms ease,color 250ms ease; } .ds-package a:hover, .ds-package a:focus-visible { background:var(--electric-lime, #c8ff3d); color:var(--carbon, #080010); } .ds-package a:focus-visible { outline:2px solid var(--electric-lime, #c8ff3d); outline-offset:5px; } .ds-package svg { width:1rem; fill:none; stroke:currentColor; stroke-width:1.6; }"
+    },
+    {
+      "name": "Project Dossier Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Painel de espécime com arte procedural, telemetria e ação sobreposta.",
+      "html": "<button class=\"ds-project\" type=\"button\"><svg class=\"ds-project__art\" viewBox=\"0 0 1200 800\" aria-hidden=\"true\"><rect width=\"1200\" height=\"800\" fill=\"#111019\"/><path d=\"M-80 670 310 35h370L295 800H-80Z\" fill=\"#c8ff3d\"/><path d=\"m430 800 385-800h465L895 800Z\" fill=\"#171b22\"/><path d=\"M-40 650C210 650 235 450 425 450s215 120 375 60c170-64 195-260 450-280\" fill=\"none\" stroke=\"#2d58ff\" stroke-width=\"8\"/></svg><span class=\"ds-project__top\"><b>01</b><span>ANO A INSERIR</span></span><span class=\"ds-project__meta\"><span><small>ESTRATÉGIA &amp; IDENTIDADE</small><strong>PROJETO 01</strong></span><span class=\"ds-project__action\">VER CASE →</span></span></button>",
+      "css": ".ds-project { position:relative; display:block; width:100%; aspect-ratio:16/8.5; overflow:hidden; padding:0; border:1px solid var(--border-strong, rgba(245,247,250,.34)); border-radius:0; background:var(--graphite, #1a1f26); color:var(--off-white, #f5f7fa); cursor:pointer; text-align:left; transition:border-color 260ms ease; } .ds-project::after { position:absolute; inset:0; background:linear-gradient(to top, rgba(8,0,16,.9), transparent 52%); content:\"\"; } .ds-project__art { position:absolute; inset:0; width:100%; height:100%; transition:transform 900ms cubic-bezier(.16,1,.3,1), filter 500ms ease; } .ds-project__top, .ds-project__meta { position:absolute; z-index:1; right:1.4rem; left:1.4rem; display:flex; justify-content:space-between; } .ds-project__top { top:1.2rem; align-items:center; font:500 .62rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing:.11em; } .ds-project__top b { display:grid; width:2.6rem; height:2.6rem; place-items:center; border:1px solid currentColor; } .ds-project__meta { bottom:1.4rem; align-items:flex-end; } .ds-project__meta > span:first-child { display:flex; flex-direction:column; } .ds-project small { margin-bottom:.4rem; font:600 .61rem/1.2 Manrope, sans-serif; letter-spacing:.12em; } .ds-project strong { font:800 clamp(2.2rem,4vw,4.75rem)/.9 \"Barlow Condensed\", sans-serif; letter-spacing:-.03em; } .ds-project__action { font:800 .68rem/1.2 Manrope, sans-serif; letter-spacing:.11em; transform:translateX(1.3rem); transition:transform 350ms cubic-bezier(.16,1,.3,1); } .ds-project:hover, .ds-project:focus-visible { border-color:var(--electric-lime, #c8ff3d); } .ds-project:hover .ds-project__art, .ds-project:focus-visible .ds-project__art { filter:saturate(1.08) contrast(1.03); transform:scale(1.025); } .ds-project:hover .ds-project__action, .ds-project:focus-visible .ds-project__action { transform:translateX(0); } .ds-project:focus-visible { outline:2px solid var(--electric-lime, #c8ff3d); outline-offset:4px; }"
+    },
+    {
+      "name": "Data Signal Plot",
+      "kind": "custom",
+      "refersTo": "project-card",
+      "description": "Assinatura gráfica com grid, caminhos azul e lima, nós e leitura técnica.",
+      "html": "<div class=\"ds-signal\"><svg viewBox=\"0 0 800 420\" aria-hidden=\"true\"><g class=\"ds-signal__grid\"><path d=\"M0 70H800M0 140H800M0 210H800M0 280H800M0 350H800M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420\"/></g><path class=\"ds-signal__blue\" d=\"M-40 340C90 330 105 90 250 105s145 210 278 168c105-34 105-190 305-217\"/><path class=\"ds-signal__lime\" d=\"M-40 65C115 80 105 300 275 285s115-170 280-142c130 22 126 210 278 231\"/><circle cx=\"525\" cy=\"273\" r=\"12\"/></svg><span>INPUT / SIGNAL<br>STATUS / RECEIVING</span></div>",
+      "css": ".ds-signal { position:relative; min-height:20rem; overflow:hidden; background:var(--carbon, #080010); color:var(--off-white, #f5f7fa); } .ds-signal svg { position:absolute; inset:0; width:100%; height:100%; } .ds-signal__grid { fill:none; stroke:rgba(245,247,250,.12); stroke-width:1; } .ds-signal__blue, .ds-signal__lime { fill:none; stroke-width:4; vector-effect:non-scaling-stroke; stroke-dasharray:1; stroke-dashoffset:0; transition:stroke-width 250ms ease; } .ds-signal__blue { stroke:var(--electric-blue, #2d58ff); } .ds-signal__lime { stroke:var(--electric-lime, #c8ff3d); } .ds-signal circle { fill:var(--electric-lime, #c8ff3d); stroke:var(--electric-blue, #2d58ff); stroke-width:3; } .ds-signal span { position:absolute; top:1.5rem; left:1.5rem; font:500 .61rem/1.55 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing:.1em; } .ds-signal:hover .ds-signal__blue, .ds-signal:focus-within .ds-signal__blue { stroke-width:6; } @media (prefers-reduced-motion: reduce) { .ds-signal__blue, .ds-signal__lime { transition-duration:.01ms; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Data Signal Instrument Panel",
+    "overview": "A Jump se comporta como um instrumento editorial de calibração: informação entra, vira direção, atravessa a execução e retorna como sinal legível. O mundo visual combina campos foscos de carbono e grafite, tipografia off-white comprimida, trilhos finos e marcações técnicas para comunicar precisão sem perder energia.\n\nO sistema é direto, premium e experimental com disciplina. Lima elétrico indica calibração, estado e decisão; azul elétrico desenha fluxo, dados e continuidade. A profundidade é estrutural e plana, criada por campos cromáticos, escala tipográfica, recortes e linhas — nunca por ornamento volumétrico.",
+    "keyCharacteristics": [
+      "Campos foscos de carbono e grafite contrastados por planos off-white.",
+      "Headlines condensadas, densas e em caixa alta; texto corrido aberto e legível.",
+      "Lima para calibração e ação; azul para sinal, percurso e leitura de dados.",
+      "Painéis quadrados, trilhos finos, índices, coordenadas e nós circulares pontuais.",
+      "Movimento leve que revela sequência e progresso, com equivalência estática em movimento reduzido."
+    ],
+    "rules": [
+      { "name": "The Two-Signal Rule", "body": "Lima marca calibração, decisão ou ação; azul representa sinal, percurso ou dado. Não troque seus papéis por conveniência decorativa.", "section": "colors" },
+      { "name": "The Controlled Inversion Rule", "body": "Use off-white ou um acento como campo editorial completo e intencional, não como uma coleção de cartões claros soltos sobre o carbono.", "section": "colors" },
+      { "name": "The Compressed Claim Rule", "body": "Reserve Barlow Condensed para frases que precisam funcionar como forma e mensagem; preserve Manrope para leitura contínua.", "section": "typography" },
+      { "name": "The Telemetry Rule", "body": "Monoespaçada comunica orientação e estado em doses pequenas. Nunca a use para parágrafos promocionais.", "section": "typography" },
+      { "name": "The Flat Instrument Rule", "body": "Elementos não flutuam: estado e prioridade aparecem por inversão de cor, trilho, escala ou movimento, nunca por drop shadow.", "section": "elevation" },
+      { "name": "The Square Field Rule", "body": "A geometria retangular é a norma operacional. Não arredonde painéis para suavizar a interface; use o token circular somente para dados e marcadores.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use campos foscos, linhas finas e alinhamento de grid para construir hierarquia antes de adicionar decoração.",
+      "Do mantenha lima e azul em papéis semânticos distintos e verificáveis.",
+      "Do combine afirmações condensadas com texto Manrope de largura controlada e telemetria monoespaçada curta.",
+      "Do preserve estados equivalentes de hover, foco visível e movimento reduzido em todos os componentes interativos.",
+      "Do use o wordmark temporário ‘JUMP / PERFORMANCE’ até existir um ativo oficial aprovado."
+    ],
+    "donts": [
+      "Don't transforme o sistema em uma página de agência genérica com cartões uniformes de serviços, prova inventada ou tabela SaaS.",
+      "Don't introduza cantos arredondados, sombras, glassmorphism, glows ou profundidade 3D em painéis de marca.",
+      "Don't trate lima e azul como ruído neon, estética cyberpunk, gamer, cripto ou ‘IA genérica’.",
+      "Don't espalhe microcopy técnica até competir com a mensagem principal; índices e coordenadas devem orientar, não decorar.",
+      "Don't recrie um símbolo de marca não fornecido nem use resultados, logos de clientes ou métricas sem validação."
+    ]
+  }
+}
