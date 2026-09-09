@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Barlow_Condensed, Manrope } from "next/font/google";
 import "./globals.css";
 
+const siteUrl = "https://jumpperformace.com.br";
+
 const display = Barlow_Condensed({
   subsets: ["latin"],
   weight: ["600", "700", "800", "900"],
@@ -17,11 +19,15 @@ const body = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Jump Performance | Marketing, Estratégia e Performance",
   description:
     "Estratégia, criatividade e dados conectados para marcas que querem transformar atenção em crescimento.",
   applicationName: "Jump Performance",
   keywords: ["marketing digital", "estratégia", "performance", "conteúdo", "mídia paga"],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
@@ -29,6 +35,7 @@ export const metadata: Metadata = {
     title: "Jump Performance | Marketing, Estratégia e Performance",
     description:
       "Estratégia, criatividade e dados conectados para transformar atenção em crescimento.",
+    url: "/",
   },
   twitter: {
     card: "summary",
@@ -39,9 +46,6 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
-  },
-  other: {
-    "codex-preview": "development",
   },
 };
 

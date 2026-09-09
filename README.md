@@ -11,7 +11,8 @@ npm ci
 npm run dev
 ```
 
-A prévia abre em `http://localhost:5173`.
+A prévia local abre em `http://localhost:5173`. O endereço de produção é
+`https://jumpperformace.com.br`.
 
 ## Validação
 
