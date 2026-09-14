@@ -17,7 +17,7 @@ export const siteConfig = {
     subject: emailSubject,
     message: emailMessage,
   },
-  instagram: "",
+  instagram: "https://www.instagram.com/jumpperformance_/",
   linkedin: "",
 } as const;
 

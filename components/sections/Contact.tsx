@@ -15,7 +15,7 @@ const contactItems = [
   },
   {
     label: "Instagram",
-    value: "Perfil a definir",
+    value: "@jumpperformance_",
     href: siteConfig.instagram,
   },
   {
