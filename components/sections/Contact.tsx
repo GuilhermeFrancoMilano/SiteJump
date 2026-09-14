@@ -1,6 +1,6 @@
 import { ArrowIcon } from "@/components/ui/ArrowIcon";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import { getWhatsAppUrl, siteConfig } from "@/config/site";
+import { getEmailUrl, getWhatsAppUrl, siteConfig } from "@/config/site";
 
 const contactItems = [
   {
@@ -10,8 +10,8 @@ const contactItems = [
   },
   {
     label: "E-mail",
-    value: siteConfig.email || "E-mail a definir",
-    href: siteConfig.email ? `mailto:${siteConfig.email}` : "",
+    value: siteConfig.email.address,
+    href: getEmailUrl(),
   },
   {
     label: "Instagram",
