@@ -8,8 +8,8 @@ const emailMessage =
 export const siteConfig = {
   company: "Jump Performance",
   whatsapp: {
-    number: "",
-    display: "Número a definir",
+    number: "5511978537933",
+    display: "(11) 97853-7933",
     message: whatsappMessage,
   },
   email: {
