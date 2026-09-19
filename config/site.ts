@@ -18,7 +18,7 @@ export const siteConfig = {
     message: emailMessage,
   },
   instagram: "https://www.instagram.com/jumpperformance_/",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/jump-performance-b34542438/",
 } as const;
 
 export function getWhatsAppUrl(customMessage: string = siteConfig.whatsapp.message) {

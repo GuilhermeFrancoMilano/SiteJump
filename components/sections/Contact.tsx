@@ -20,7 +20,7 @@ const contactItems = [
   },
   {
     label: "LinkedIn",
-    value: "Perfil a definir",
+    value: "Jump Performance",
     href: siteConfig.linkedin,
   },
 ];
